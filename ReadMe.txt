@@ -20,6 +20,10 @@ Before running this application locally, ensure you have the following installed
 3. Create Database using provide invetorysystem.sql document(Databse name = `invetorysystem`)
 4. Serve the application locally (using XAMPP)
 5. Access the application in your web browser at `http://localhost:8000`.
+6. If images do not load -> use the below commands
+rm public/storage
+php artisan storage:link
+
 
 ## Usage
 
