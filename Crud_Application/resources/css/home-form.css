@@ -1,0 +1,102 @@
+/* General Body Style */
+body {
+    background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%); /* Green gradient background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+/* Header Style */
+.navbar {
+    background-color: #4caf50; /* Green header */
+}
+.navbar-brand {
+    color: #fff !important;
+}
+.navbar-brand:hover {
+    color: #d0f0c0 !important;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #388e3c; /* Darker green */
+    border-color: #388e3c;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+.btn-primary:hover {
+    background-color: #2e7d32; /* Even darker green */
+    border-color: #2e7d32;
+}
+.btn-view {
+    background-color: #a5d6a7; /* Light green */
+    border-color: #81c784; /* Slightly darker green */
+    color: #333;
+}
+.btn-view:hover {
+    background-color: #81c784; /* Slightly darker green */
+    border-color: #66bb6a; /* Darker green */
+}
+.btn-update {
+    background-color: #c8e6c9; /* Light green */
+    border-color: #a5d6a7; /* Slightly darker green */
+    color: #333;
+}
+.btn-update:hover {
+    background-color: #a5d6a7; /* Darker green */
+    border-color: #81c784; /* Darker green */
+}
+.btn-delete {
+    background-color: #f44336; /* Red */
+    border-color: #e57373; /* Light red */
+    color: #fff;
+}
+.btn-delete:hover {
+    background-color: #e57373; /* Light red */
+    border-color: #c62828; /* Darker red */
+}
+
+/* Table Style */
+.table {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+.table thead th {
+    background-color: #388e3c; /* Dark green */
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f1f8e9; /* Light green for table rows */
+}
+.table-striped tbody tr:hover {
+    background-color: #dcedc8; /* Slightly darker green on hover */
+}
+.table tbody td {
+    vertical-align: middle;
+    text-align: center;
+}
+.table img {
+    border-radius: 4px;
+}
+
+/* Form Style */
+#item-form {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    display: none; /* Hide the form initially */
+}
+.input-group-text {
+    background-color: #c8e6c9; /* Light green for input labels */
+    border: 1px solid #4caf50;
+}
+.form-control {
+    border: 1px solid #4caf50;
+}
+.form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(76, 175, 80, 0.25);
+    border-color: #388e3c;
+}
